@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E130EA4828B3771300899CFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E130EA4728B3771300899CFD /* AppDelegate.swift */; };
+		E130EA4A28B3771300899CFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E130EA4928B3771300899CFD /* SceneDelegate.swift */; };
+		E130EA4C28B3771300899CFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E130EA4B28B3771300899CFD /* ViewController.swift */; };
+		E130EA4F28B3771300899CFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E130EA4D28B3771300899CFD /* Main.storyboard */; };
+		E130EA5228B3771300899CFD /* SharpImageView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E130EA5028B3771300899CFD /* SharpImageView.xcdatamodeld */; };
+		E130EA5428B3771C00899CFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E130EA5328B3771C00899CFD /* Assets.xcassets */; };
+		E130EA5728B3771C00899CFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E130EA5528B3771C00899CFD /* LaunchScreen.storyboard */; };
+		E130EA6228B3771C00899CFD /* SharpImageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E130EA6128B3771C00899CFD /* SharpImageViewTests.swift */; };
+		E130EA6C28B3771D00899CFD /* SharpImageViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E130EA6B28B3771D00899CFD /* SharpImageViewUITests.swift */; };
+		E130EA6E28B3771D00899CFD /* SharpImageViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E130EA6D28B3771D00899CFD /* SharpImageViewUITestsLaunchTests.swift */; };
+		E1C1D2BE28B3838500A98CED /* SharpImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C1D2BD28B3838500A98CED /* SharpImageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E130EA5E28B3771C00899CFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E130EA3C28B3771300899CFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E130EA4328B3771300899CFD;
+			remoteInfo = SharpImageView;
+		};
+		E130EA6828B3771D00899CFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E130EA3C28B3771300899CFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E130EA4328B3771300899CFD;
+			remoteInfo = SharpImageView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E130EA4428B3771300899CFD /* SharpImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharpImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E130EA4728B3771300899CFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E130EA4928B3771300899CFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E130EA4B28B3771300899CFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E130EA4E28B3771300899CFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E130EA5128B3771300899CFD /* SharpImageView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SharpImageView.xcdatamodel; sourceTree = "<group>"; };
+		E130EA5328B3771C00899CFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E130EA5628B3771C00899CFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E130EA5828B3771C00899CFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E130EA5D28B3771C00899CFD /* SharpImageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharpImageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E130EA6128B3771C00899CFD /* SharpImageViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharpImageViewTests.swift; sourceTree = "<group>"; };
+		E130EA6728B3771D00899CFD /* SharpImageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharpImageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E130EA6B28B3771D00899CFD /* SharpImageViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharpImageViewUITests.swift; sourceTree = "<group>"; };
+		E130EA6D28B3771D00899CFD /* SharpImageViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharpImageViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E1C1D2BD28B3838500A98CED /* SharpImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharpImageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E130EA4128B3771300899CFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E130EA5A28B3771C00899CFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E130EA6428B3771D00899CFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E130EA3B28B3771300899CFD = {
+			isa = PBXGroup;
+			children = (
+				E130EA4628B3771300899CFD /* SharpImageView */,
+				E130EA6028B3771C00899CFD /* SharpImageViewTests */,
+				E130EA6A28B3771D00899CFD /* SharpImageViewUITests */,
+				E130EA4528B3771300899CFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E130EA4528B3771300899CFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E130EA4428B3771300899CFD /* SharpImageView.app */,
+				E130EA5D28B3771C00899CFD /* SharpImageViewTests.xctest */,
+				E130EA6728B3771D00899CFD /* SharpImageViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E130EA4628B3771300899CFD /* SharpImageView */ = {
+			isa = PBXGroup;
+			children = (
+				E130EA4728B3771300899CFD /* AppDelegate.swift */,
+				E130EA4928B3771300899CFD /* SceneDelegate.swift */,
+				E130EA4B28B3771300899CFD /* ViewController.swift */,
+				E130EA4D28B3771300899CFD /* Main.storyboard */,
+				E1C1D2BD28B3838500A98CED /* SharpImageView.swift */,
+				E130EA5328B3771C00899CFD /* Assets.xcassets */,
+				E130EA5528B3771C00899CFD /* LaunchScreen.storyboard */,
+				E130EA5828B3771C00899CFD /* Info.plist */,
+				E130EA5028B3771300899CFD /* SharpImageView.xcdatamodeld */,
+			);
+			path = SharpImageView;
+			sourceTree = "<group>";
+		};
+		E130EA6028B3771C00899CFD /* SharpImageViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				E130EA6128B3771C00899CFD /* SharpImageViewTests.swift */,
+			);
+			path = SharpImageViewTests;
+			sourceTree = "<group>";
+		};
+		E130EA6A28B3771D00899CFD /* SharpImageViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E130EA6B28B3771D00899CFD /* SharpImageViewUITests.swift */,
+				E130EA6D28B3771D00899CFD /* SharpImageViewUITestsLaunchTests.swift */,
+			);
+			path = SharpImageViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E130EA4328B3771300899CFD /* SharpImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E130EA7128B3771D00899CFD /* Build configuration list for PBXNativeTarget "SharpImageView" */;
+			buildPhases = (
+				E130EA4028B3771300899CFD /* Sources */,
+				E130EA4128B3771300899CFD /* Frameworks */,
+				E130EA4228B3771300899CFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SharpImageView;
+			productName = SharpImageView;
+			productReference = E130EA4428B3771300899CFD /* SharpImageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E130EA5C28B3771C00899CFD /* SharpImageViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E130EA7428B3771D00899CFD /* Build configuration list for PBXNativeTarget "SharpImageViewTests" */;
+			buildPhases = (
+				E130EA5928B3771C00899CFD /* Sources */,
+				E130EA5A28B3771C00899CFD /* Frameworks */,
+				E130EA5B28B3771C00899CFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E130EA5F28B3771C00899CFD /* PBXTargetDependency */,
+			);
+			name = SharpImageViewTests;
+			productName = SharpImageViewTests;
+			productReference = E130EA5D28B3771C00899CFD /* SharpImageViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E130EA6628B3771D00899CFD /* SharpImageViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E130EA7728B3771D00899CFD /* Build configuration list for PBXNativeTarget "SharpImageViewUITests" */;
+			buildPhases = (
+				E130EA6328B3771D00899CFD /* Sources */,
+				E130EA6428B3771D00899CFD /* Frameworks */,
+				E130EA6528B3771D00899CFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E130EA6928B3771D00899CFD /* PBXTargetDependency */,
+			);
+			name = SharpImageViewUITests;
+			productName = SharpImageViewUITests;
+			productReference = E130EA6728B3771D00899CFD /* SharpImageViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E130EA3C28B3771300899CFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					E130EA4328B3771300899CFD = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					E130EA5C28B3771C00899CFD = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = E130EA4328B3771300899CFD;
+					};
+					E130EA6628B3771D00899CFD = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = E130EA4328B3771300899CFD;
+					};
+				};
+			};
+			buildConfigurationList = E130EA3F28B3771300899CFD /* Build configuration list for PBXProject "SharpImageView" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E130EA3B28B3771300899CFD;
+			productRefGroup = E130EA4528B3771300899CFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E130EA4328B3771300899CFD /* SharpImageView */,
+				E130EA5C28B3771C00899CFD /* SharpImageViewTests */,
+				E130EA6628B3771D00899CFD /* SharpImageViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E130EA4228B3771300899CFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E130EA5728B3771C00899CFD /* LaunchScreen.storyboard in Resources */,
+				E130EA5428B3771C00899CFD /* Assets.xcassets in Resources */,
+				E130EA4F28B3771300899CFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E130EA5B28B3771C00899CFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E130EA6528B3771D00899CFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E130EA4028B3771300899CFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E130EA4C28B3771300899CFD /* ViewController.swift in Sources */,
+				E130EA4828B3771300899CFD /* AppDelegate.swift in Sources */,
+				E1C1D2BE28B3838500A98CED /* SharpImageView.swift in Sources */,
+				E130EA4A28B3771300899CFD /* SceneDelegate.swift in Sources */,
+				E130EA5228B3771300899CFD /* SharpImageView.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E130EA5928B3771C00899CFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E130EA6228B3771C00899CFD /* SharpImageViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E130EA6328B3771D00899CFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E130EA6E28B3771D00899CFD /* SharpImageViewUITestsLaunchTests.swift in Sources */,
+				E130EA6C28B3771D00899CFD /* SharpImageViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E130EA5F28B3771C00899CFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E130EA4328B3771300899CFD /* SharpImageView */;
+			targetProxy = E130EA5E28B3771C00899CFD /* PBXContainerItemProxy */;
+		};
+		E130EA6928B3771D00899CFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E130EA4328B3771300899CFD /* SharpImageView */;
+			targetProxy = E130EA6828B3771D00899CFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E130EA4D28B3771300899CFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E130EA4E28B3771300899CFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E130EA5528B3771C00899CFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E130EA5628B3771C00899CFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E130EA6F28B3771D00899CFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E130EA7028B3771D00899CFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E130EA7228B3771D00899CFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9APJ4LMH7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SharpImageView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robert.SharpImageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E130EA7328B3771D00899CFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9APJ4LMH7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SharpImageView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robert.SharpImageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E130EA7528B3771D00899CFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9APJ4LMH7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robert.SharpImageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SharpImageView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SharpImageView";
+			};
+			name = Debug;
+		};
+		E130EA7628B3771D00899CFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9APJ4LMH7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robert.SharpImageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SharpImageView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SharpImageView";
+			};
+			name = Release;
+		};
+		E130EA7828B3771D00899CFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9APJ4LMH7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robert.SharpImageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SharpImageView;
+			};
+			name = Debug;
+		};
+		E130EA7928B3771D00899CFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9APJ4LMH7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robert.SharpImageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SharpImageView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E130EA3F28B3771300899CFD /* Build configuration list for PBXProject "SharpImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E130EA6F28B3771D00899CFD /* Debug */,
+				E130EA7028B3771D00899CFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E130EA7128B3771D00899CFD /* Build configuration list for PBXNativeTarget "SharpImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E130EA7228B3771D00899CFD /* Debug */,
+				E130EA7328B3771D00899CFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E130EA7428B3771D00899CFD /* Build configuration list for PBXNativeTarget "SharpImageViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E130EA7528B3771D00899CFD /* Debug */,
+				E130EA7628B3771D00899CFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E130EA7728B3771D00899CFD /* Build configuration list for PBXNativeTarget "SharpImageViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E130EA7828B3771D00899CFD /* Debug */,
+				E130EA7928B3771D00899CFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E130EA5028B3771300899CFD /* SharpImageView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E130EA5128B3771300899CFD /* SharpImageView.xcdatamodel */,
+			);
+			currentVersion = E130EA5128B3771300899CFD /* SharpImageView.xcdatamodel */;
+			path = SharpImageView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E130EA3C28B3771300899CFD /* Project object */;
+}
